@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B444FE161C98078400F393A4 /* AddAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B444FE151C98078400F393A4 /* AddAssetViewController.m */; };
+		B47B7BF31C96B6A10013573A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7BF21C96B6A10013573A /* main.m */; };
+		B47B7BF61C96B6A10013573A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7BF51C96B6A10013573A /* AppDelegate.m */; };
+		B47B7BFC1C96B6A10013573A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47B7BFA1C96B6A10013573A /* Main.storyboard */; };
+		B47B7BFF1C96B6A10013573A /* ImaginaryWealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B47B7BFD1C96B6A10013573A /* ImaginaryWealth.xcdatamodeld */; };
+		B47B7C011C96B6A10013573A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47B7C001C96B6A10013573A /* Assets.xcassets */; };
+		B47B7C041C96B6A10013573A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47B7C021C96B6A10013573A /* LaunchScreen.storyboard */; };
+		B47B7C0F1C96B8200013573A /* Asset+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7C0C1C96B8200013573A /* Asset+CoreDataProperties.m */; };
+		B47B7C101C96B8200013573A /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7C0E1C96B8200013573A /* Asset.m */; };
+		B47B7C131C96C1AA0013573A /* AssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7C121C96C1AA0013573A /* AssetManager.m */; };
+		B47B7C161C96E6860013573A /* AssetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7C151C96E6860013573A /* AssetTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B444FE141C98078400F393A4 /* AddAssetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAssetViewController.h; sourceTree = "<group>"; };
+		B444FE151C98078400F393A4 /* AddAssetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAssetViewController.m; sourceTree = "<group>"; };
+		B444FE171C9850AC00F393A4 /* ImaginaryWealth 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ImaginaryWealth 2.xcdatamodel"; sourceTree = "<group>"; };
+		B47B7BEE1C96B6A10013573A /* ImaginaryWealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImaginaryWealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47B7BF21C96B6A10013573A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B47B7BF41C96B6A10013573A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B47B7BF51C96B6A10013573A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B47B7BFB1C96B6A10013573A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B47B7BFE1C96B6A10013573A /* ImaginaryWealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImaginaryWealth.xcdatamodel; sourceTree = "<group>"; };
+		B47B7C001C96B6A10013573A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B47B7C031C96B6A10013573A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B47B7C051C96B6A10013573A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47B7C0B1C96B8200013573A /* Asset+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Asset+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B47B7C0C1C96B8200013573A /* Asset+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Asset+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B47B7C0D1C96B8200013573A /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		B47B7C0E1C96B8200013573A /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
+		B47B7C111C96C1AA0013573A /* AssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetManager.h; sourceTree = "<group>"; };
+		B47B7C121C96C1AA0013573A /* AssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetManager.m; sourceTree = "<group>"; };
+		B47B7C141C96E6860013573A /* AssetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetTableViewController.h; sourceTree = "<group>"; };
+		B47B7C151C96E6860013573A /* AssetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B47B7BEB1C96B6A10013573A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B47B7BE51C96B6A00013573A = {
+			isa = PBXGroup;
+			children = (
+				B47B7BF01C96B6A10013573A /* ImaginaryWealth */,
+				B47B7BEF1C96B6A10013573A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B47B7BEF1C96B6A10013573A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B47B7BEE1C96B6A10013573A /* ImaginaryWealth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B47B7BF01C96B6A10013573A /* ImaginaryWealth */ = {
+			isa = PBXGroup;
+			children = (
+				B47B7C0B1C96B8200013573A /* Asset+CoreDataProperties.h */,
+				B47B7C0C1C96B8200013573A /* Asset+CoreDataProperties.m */,
+				B47B7C0D1C96B8200013573A /* Asset.h */,
+				B47B7C0E1C96B8200013573A /* Asset.m */,
+				B47B7BF41C96B6A10013573A /* AppDelegate.h */,
+				B47B7BF51C96B6A10013573A /* AppDelegate.m */,
+				B47B7BFA1C96B6A10013573A /* Main.storyboard */,
+				B47B7C001C96B6A10013573A /* Assets.xcassets */,
+				B47B7C021C96B6A10013573A /* LaunchScreen.storyboard */,
+				B47B7C051C96B6A10013573A /* Info.plist */,
+				B47B7BFD1C96B6A10013573A /* ImaginaryWealth.xcdatamodeld */,
+				B47B7BF11C96B6A10013573A /* Supporting Files */,
+				B47B7C111C96C1AA0013573A /* AssetManager.h */,
+				B47B7C121C96C1AA0013573A /* AssetManager.m */,
+				B47B7C141C96E6860013573A /* AssetTableViewController.h */,
+				B47B7C151C96E6860013573A /* AssetTableViewController.m */,
+				B444FE141C98078400F393A4 /* AddAssetViewController.h */,
+				B444FE151C98078400F393A4 /* AddAssetViewController.m */,
+			);
+			path = ImaginaryWealth;
+			sourceTree = "<group>";
+		};
+		B47B7BF11C96B6A10013573A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B47B7BF21C96B6A10013573A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B47B7BED1C96B6A10013573A /* ImaginaryWealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47B7C081C96B6A10013573A /* Build configuration list for PBXNativeTarget "ImaginaryWealth" */;
+			buildPhases = (
+				B47B7BEA1C96B6A10013573A /* Sources */,
+				B47B7BEB1C96B6A10013573A /* Frameworks */,
+				B47B7BEC1C96B6A10013573A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImaginaryWealth;
+			productName = ImaginaryWealth;
+			productReference = B47B7BEE1C96B6A10013573A /* ImaginaryWealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B47B7BE61C96B6A00013573A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jens;
+				TargetAttributes = {
+					B47B7BED1C96B6A10013573A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B47B7BE91C96B6A00013573A /* Build configuration list for PBXProject "ImaginaryWealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B47B7BE51C96B6A00013573A;
+			productRefGroup = B47B7BEF1C96B6A10013573A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B47B7BED1C96B6A10013573A /* ImaginaryWealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B47B7BEC1C96B6A10013573A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47B7C041C96B6A10013573A /* LaunchScreen.storyboard in Resources */,
+				B47B7C011C96B6A10013573A /* Assets.xcassets in Resources */,
+				B47B7BFC1C96B6A10013573A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B47B7BEA1C96B6A10013573A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47B7C101C96B8200013573A /* Asset.m in Sources */,
+				B47B7BF61C96B6A10013573A /* AppDelegate.m in Sources */,
+				B47B7C131C96C1AA0013573A /* AssetManager.m in Sources */,
+				B444FE161C98078400F393A4 /* AddAssetViewController.m in Sources */,
+				B47B7BFF1C96B6A10013573A /* ImaginaryWealth.xcdatamodeld in Sources */,
+				B47B7C161C96E6860013573A /* AssetTableViewController.m in Sources */,
+				B47B7C0F1C96B8200013573A /* Asset+CoreDataProperties.m in Sources */,
+				B47B7BF31C96B6A10013573A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B47B7BFA1C96B6A10013573A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47B7BFB1C96B6A10013573A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B47B7C021C96B6A10013573A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47B7C031C96B6A10013573A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B47B7C061C96B6A10013573A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B47B7C071C96B6A10013573A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B47B7C091C96B6A10013573A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImaginaryWealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jens.ImaginaryWealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B47B7C0A1C96B6A10013573A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImaginaryWealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jens.ImaginaryWealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B47B7BE91C96B6A00013573A /* Build configuration list for PBXProject "ImaginaryWealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47B7C061C96B6A10013573A /* Debug */,
+				B47B7C071C96B6A10013573A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47B7C081C96B6A10013573A /* Build configuration list for PBXNativeTarget "ImaginaryWealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47B7C091C96B6A10013573A /* Debug */,
+				B47B7C0A1C96B6A10013573A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B47B7BFD1C96B6A10013573A /* ImaginaryWealth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B444FE171C9850AC00F393A4 /* ImaginaryWealth 2.xcdatamodel */,
+				B47B7BFE1C96B6A10013573A /* ImaginaryWealth.xcdatamodel */,
+			);
+			currentVersion = B444FE171C9850AC00F393A4 /* ImaginaryWealth 2.xcdatamodel */;
+			path = ImaginaryWealth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B47B7BE61C96B6A00013573A /* Project object */;
+}
