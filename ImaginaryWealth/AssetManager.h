@@ -26,4 +26,10 @@
 
 - (void) moveAssetAtIndex:(NSInteger) firstIndex toIndex:(NSInteger) secondIndex;
 
+- (void) addTransactionWithName:(NSString *) name amount:(NSDecimalNumber *) amount toAsset: (Asset *) asset;
+
+- (void) removeTransaction:(Transaction *) transaction fromAsset:(Asset *) asset;
+
+- (void) save;
+
 @end

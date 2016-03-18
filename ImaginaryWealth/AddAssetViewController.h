@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-// there will be a protocol with this name
-@protocol AddAssetViewControllerDelegate;
-
+//// there will be a protocol with this name
+//@protocol AddAssetViewControllerDelegate;
+//
 // there will be a class with this name
 @class AddAssetViewController;
 

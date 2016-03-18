@@ -1,5 +1,5 @@
 //
-//  Asset+CoreDataProperties.m
+//  Transaction+CoreDataProperties.m
 //  ImaginaryWealth
 //
 //  Created by Jens Bruggemans on 17/03/16.
@@ -9,13 +9,11 @@
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "Asset+CoreDataProperties.h"
+#import "Transaction+CoreDataProperties.h"
 
-@implementation Asset (CoreDataProperties)
+@implementation Transaction (CoreDataProperties)
 
-@dynamic initialValue;
 @dynamic name;
-@dynamic sortIndex;
-@dynamic transactions;
+@dynamic amount;
 
 @end

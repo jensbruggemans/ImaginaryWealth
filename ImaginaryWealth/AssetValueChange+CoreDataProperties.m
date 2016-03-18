@@ -1,21 +1,19 @@
 //
-//  Asset+CoreDataProperties.m
+//  AssetValueChange+CoreDataProperties.m
 //  ImaginaryWealth
 //
-//  Created by Jens Bruggemans on 17/03/16.
+//  Created by Jens Bruggemans on 16/03/16.
 //  Copyright © 2016 jens. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "Asset+CoreDataProperties.h"
+#import "AssetValueChange+CoreDataProperties.h"
 
-@implementation Asset (CoreDataProperties)
+@implementation AssetValueChange (CoreDataProperties)
 
-@dynamic initialValue;
 @dynamic name;
-@dynamic sortIndex;
-@dynamic transactions;
+@dynamic amountChanged;
 
 @end

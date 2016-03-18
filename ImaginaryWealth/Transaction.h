@@ -1,5 +1,5 @@
 //
-//  Asset.h
+//  Transaction.h
 //  ImaginaryWealth
 //
 //  Created by Jens Bruggemans on 17/03/16.
@@ -9,11 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Transaction;
-
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Asset : NSManagedObject
+@interface Transaction : NSManagedObject
 
 // Insert code here to declare functionality of your managed object subclass
 
@@ -21,4 +19,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#import "Asset+CoreDataProperties.h"
+#import "Transaction+CoreDataProperties.h"

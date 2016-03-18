@@ -1,19 +1,17 @@
 //
-//  Asset.h
+//  AssetValueChange.h
 //  ImaginaryWealth
 //
-//  Created by Jens Bruggemans on 17/03/16.
+//  Created by Jens Bruggemans on 16/03/16.
 //  Copyright © 2016 jens. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Transaction;
-
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Asset : NSManagedObject
+@interface AssetValueChange : NSManagedObject
 
 // Insert code here to declare functionality of your managed object subclass
 
@@ -21,4 +19,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#import "Asset+CoreDataProperties.h"
+#import "AssetValueChange+CoreDataProperties.h"

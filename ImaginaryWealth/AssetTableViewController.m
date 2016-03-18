@@ -11,6 +11,7 @@
 #import "AssetManager.h"
 #import "Asset.h"
 #import "AddAssetViewController.h"
+#import "AssetDetailTableViewController.h"
 
 @interface AssetTableViewController () <AddAssetViewControllerDelegate>
 
@@ -118,6 +119,14 @@
         AddAssetViewController * addAssetViewController = navigationController.viewControllers[0];
         
         addAssetViewController.delegate = self;
+    }
+    
+    
+    else if ([segue.identifier isEqualToString: @"ShowDetail"]) {
+        
+        AssetDetailTableViewController * detailController = segue.destinationViewController;
+        
+        detailController.asset = self.assetManager.assets[self.tableView.indexPathForSelectedRow.row];
     }
 }
 

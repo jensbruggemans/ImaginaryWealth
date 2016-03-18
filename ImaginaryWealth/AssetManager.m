@@ -9,6 +9,8 @@
 #import "AssetManager.h"
 #import "AppDelegate.h"
 #import "Asset.h"
+#import "Transaction.h"
+#import "AssetValueChange.h"
 
 @implementation AssetManager
 
@@ -174,6 +176,40 @@
     
     [self save];
 }
+
+
+- (void) addTransactionWithName:(NSString *) name amount:(NSDecimalNumber *) amount toAsset: (Asset *) asset {
+    NSEntityDescription * description = [NSEntityDescription entityForName:@"Transaction" inManagedObjectContext:self.objectContext];
+    
+    Transaction * transaction = [[Transaction alloc] initWithEntity:description insertIntoManagedObjectContext:self.objectContext];
+    
+    transaction.name = name;
+    transaction.amount = amount;
+    
+    [asset addTransactionsObject:transaction];
+    
+    // save
+    [self save];
+}
+
+- (void) removeTransaction:(Transaction *) transaction fromAsset:(Asset *) asset {
+    [asset removeTransactionsObject:transaction];
+    [self.objectContext deleteObject:transaction];
+    [self save];
+}
+
+//- (void) addValueChangeWithName:(NSString *) name amount:(NSDecimalNumber *) amount toAsset: (Asset *) asset {
+//    NSEntityDescription * description = [NSEntityDescription entityForName:@"AssetValueChange" inManagedObjectContext:self.objectContext];
+//    
+//    AssetValueChange * assetValueChange = [[AssetValueChange alloc] initWithEntity:description insertIntoManagedObjectContext:self.objectContext];
+//    
+//    assetValueChange.name = name;
+//    assetValueChange.amountChanged = amount;
+//    
+//    [asset addValueChangesObject:assetValueChange];
+//    
+//    [self save];
+//}
 
 @end
 

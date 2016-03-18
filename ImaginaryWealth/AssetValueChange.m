@@ -1,15 +1,14 @@
 //
-//  Asset.m
+//  AssetValueChange.m
 //  ImaginaryWealth
 //
-//  Created by Jens Bruggemans on 17/03/16.
+//  Created by Jens Bruggemans on 16/03/16.
 //  Copyright © 2016 jens. All rights reserved.
 //
 
-#import "Asset.h"
-#import "Transaction.h"
+#import "AssetValueChange.h"
 
-@implementation Asset
+@implementation AssetValueChange
 
 // Insert code here to add functionality to your managed object subclass
 

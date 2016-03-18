@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B444FE161C98078400F393A4 /* AddAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B444FE151C98078400F393A4 /* AddAssetViewController.m */; };
+		B4463A001C9A10CB003DC79B /* AssetDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44639FF1C9A10CB003DC79B /* AssetDetailTableViewController.m */; };
+		B4463A1E1C9AB931003DC79B /* Asset+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B4463A171C9AB931003DC79B /* Asset+CoreDataProperties.m */; };
+		B4463A1F1C9AB931003DC79B /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = B4463A191C9AB931003DC79B /* Asset.m */; };
+		B4463A201C9AB931003DC79B /* Transaction+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B4463A1B1C9AB931003DC79B /* Transaction+CoreDataProperties.m */; };
+		B4463A211C9AB931003DC79B /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B4463A1D1C9AB931003DC79B /* Transaction.m */; };
 		B47B7BF31C96B6A10013573A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7BF21C96B6A10013573A /* main.m */; };
 		B47B7BF61C96B6A10013573A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7BF51C96B6A10013573A /* AppDelegate.m */; };
 		B47B7BFC1C96B6A10013573A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47B7BFA1C96B6A10013573A /* Main.storyboard */; };
 		B47B7BFF1C96B6A10013573A /* ImaginaryWealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B47B7BFD1C96B6A10013573A /* ImaginaryWealth.xcdatamodeld */; };
 		B47B7C011C96B6A10013573A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47B7C001C96B6A10013573A /* Assets.xcassets */; };
 		B47B7C041C96B6A10013573A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47B7C021C96B6A10013573A /* LaunchScreen.storyboard */; };
-		B47B7C0F1C96B8200013573A /* Asset+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7C0C1C96B8200013573A /* Asset+CoreDataProperties.m */; };
-		B47B7C101C96B8200013573A /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7C0E1C96B8200013573A /* Asset.m */; };
 		B47B7C131C96C1AA0013573A /* AssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7C121C96C1AA0013573A /* AssetManager.m */; };
 		B47B7C161C96E6860013573A /* AssetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B7C151C96E6860013573A /* AssetTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +27,16 @@
 		B444FE141C98078400F393A4 /* AddAssetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAssetViewController.h; sourceTree = "<group>"; };
 		B444FE151C98078400F393A4 /* AddAssetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAssetViewController.m; sourceTree = "<group>"; };
 		B444FE171C9850AC00F393A4 /* ImaginaryWealth 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ImaginaryWealth 2.xcdatamodel"; sourceTree = "<group>"; };
+		B44639FE1C9A10CB003DC79B /* AssetDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetDetailTableViewController.h; sourceTree = "<group>"; };
+		B44639FF1C9A10CB003DC79B /* AssetDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetDetailTableViewController.m; sourceTree = "<group>"; };
+		B4463A161C9AB931003DC79B /* Asset+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Asset+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B4463A171C9AB931003DC79B /* Asset+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Asset+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B4463A181C9AB931003DC79B /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		B4463A191C9AB931003DC79B /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
+		B4463A1A1C9AB931003DC79B /* Transaction+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Transaction+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B4463A1B1C9AB931003DC79B /* Transaction+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Transaction+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B4463A1C1C9AB931003DC79B /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		B4463A1D1C9AB931003DC79B /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
 		B47B7BEE1C96B6A10013573A /* ImaginaryWealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImaginaryWealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47B7BF21C96B6A10013573A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B47B7BF41C96B6A10013573A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,10 +46,6 @@
 		B47B7C001C96B6A10013573A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B47B7C031C96B6A10013573A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B47B7C051C96B6A10013573A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B47B7C0B1C96B8200013573A /* Asset+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Asset+CoreDataProperties.h"; sourceTree = "<group>"; };
-		B47B7C0C1C96B8200013573A /* Asset+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Asset+CoreDataProperties.m"; sourceTree = "<group>"; };
-		B47B7C0D1C96B8200013573A /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
-		B47B7C0E1C96B8200013573A /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 		B47B7C111C96C1AA0013573A /* AssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetManager.h; sourceTree = "<group>"; };
 		B47B7C121C96C1AA0013573A /* AssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetManager.m; sourceTree = "<group>"; };
 		B47B7C141C96E6860013573A /* AssetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetTableViewController.h; sourceTree = "<group>"; };
@@ -73,10 +82,14 @@
 		B47B7BF01C96B6A10013573A /* ImaginaryWealth */ = {
 			isa = PBXGroup;
 			children = (
-				B47B7C0B1C96B8200013573A /* Asset+CoreDataProperties.h */,
-				B47B7C0C1C96B8200013573A /* Asset+CoreDataProperties.m */,
-				B47B7C0D1C96B8200013573A /* Asset.h */,
-				B47B7C0E1C96B8200013573A /* Asset.m */,
+				B4463A161C9AB931003DC79B /* Asset+CoreDataProperties.h */,
+				B4463A171C9AB931003DC79B /* Asset+CoreDataProperties.m */,
+				B4463A181C9AB931003DC79B /* Asset.h */,
+				B4463A191C9AB931003DC79B /* Asset.m */,
+				B4463A1A1C9AB931003DC79B /* Transaction+CoreDataProperties.h */,
+				B4463A1B1C9AB931003DC79B /* Transaction+CoreDataProperties.m */,
+				B4463A1C1C9AB931003DC79B /* Transaction.h */,
+				B4463A1D1C9AB931003DC79B /* Transaction.m */,
 				B47B7BF41C96B6A10013573A /* AppDelegate.h */,
 				B47B7BF51C96B6A10013573A /* AppDelegate.m */,
 				B47B7BFA1C96B6A10013573A /* Main.storyboard */,
@@ -91,6 +104,8 @@
 				B47B7C151C96E6860013573A /* AssetTableViewController.m */,
 				B444FE141C98078400F393A4 /* AddAssetViewController.h */,
 				B444FE151C98078400F393A4 /* AddAssetViewController.m */,
+				B44639FE1C9A10CB003DC79B /* AssetDetailTableViewController.h */,
+				B44639FF1C9A10CB003DC79B /* AssetDetailTableViewController.m */,
 			);
 			path = ImaginaryWealth;
 			sourceTree = "<group>";
@@ -173,13 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B47B7C101C96B8200013573A /* Asset.m in Sources */,
+				B4463A1E1C9AB931003DC79B /* Asset+CoreDataProperties.m in Sources */,
+				B4463A001C9A10CB003DC79B /* AssetDetailTableViewController.m in Sources */,
 				B47B7BF61C96B6A10013573A /* AppDelegate.m in Sources */,
 				B47B7C131C96C1AA0013573A /* AssetManager.m in Sources */,
+				B4463A201C9AB931003DC79B /* Transaction+CoreDataProperties.m in Sources */,
 				B444FE161C98078400F393A4 /* AddAssetViewController.m in Sources */,
 				B47B7BFF1C96B6A10013573A /* ImaginaryWealth.xcdatamodeld in Sources */,
+				B4463A211C9AB931003DC79B /* Transaction.m in Sources */,
+				B4463A1F1C9AB931003DC79B /* Asset.m in Sources */,
 				B47B7C161C96E6860013573A /* AssetTableViewController.m in Sources */,
-				B47B7C0F1C96B8200013573A /* Asset+CoreDataProperties.m in Sources */,
 				B47B7BF31C96B6A10013573A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

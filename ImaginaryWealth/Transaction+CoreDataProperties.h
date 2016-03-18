@@ -1,5 +1,5 @@
 //
-//  Asset+CoreDataProperties.m
+//  Transaction+CoreDataProperties.h
 //  ImaginaryWealth
 //
 //  Created by Jens Bruggemans on 17/03/16.
@@ -9,13 +9,15 @@
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "Asset+CoreDataProperties.h"
+#import "Transaction.h"
 
-@implementation Asset (CoreDataProperties)
+NS_ASSUME_NONNULL_BEGIN
 
-@dynamic initialValue;
-@dynamic name;
-@dynamic sortIndex;
-@dynamic transactions;
+@interface Transaction (CoreDataProperties)
+
+@property (nullable, nonatomic, retain) NSString *name;
+@property (nullable, nonatomic, retain) NSDecimalNumber *amount;
 
 @end
+
+NS_ASSUME_NONNULL_END

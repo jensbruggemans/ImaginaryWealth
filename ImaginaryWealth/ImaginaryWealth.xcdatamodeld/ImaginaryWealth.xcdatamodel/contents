@@ -3,8 +3,15 @@
     <entity name="Asset" representedClassName="Asset" syncable="YES">
         <attribute name="initialValue" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="valueChanges" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="AssetValueChange" syncable="YES"/>
+    </entity>
+    <entity name="AssetValueChange" representedClassName="AssetValueChange" syncable="YES">
+        <attribute name="amountChanged" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Asset" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Asset" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="AssetValueChange" positionX="-63" positionY="9" width="128" height="75"/>
     </elements>
 </model>

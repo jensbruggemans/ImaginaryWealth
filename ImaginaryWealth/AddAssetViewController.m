@@ -54,6 +54,12 @@
 - (void) setInitialValue:(NSDecimalNumber *)initialValue {
     self.valueTextField.text = initialValue.stringValue;
 }
+- (IBAction)hideKeyboardPressed:(id)sender {
+//    [self.nameTextField resignFirstResponder];
+//    [self.valueTextField resignFirstResponder];
+    
+    [self.view endEditing:NO];
+}
 
 /*
 #pragma mark - Navigation
