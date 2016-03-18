@@ -13,6 +13,7 @@
 #import "AssetManager.h"
 
 @interface AssetDetailTableViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *valueLabel;
 
 @end
 
@@ -28,6 +29,22 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.title = self.asset.name;
+    [self updateValueLabel];
+}
+
+- (void) updateValueLabel {
+    NSDecimalNumber * total = self.asset.initialValue;
+
+    /*
+    for (Transaction * transaction in self.asset.transactions) {
+        total = [total decimalNumberByAdding:transaction.amount];
+    }*/
+    
+    for (int i = 0; i < self.asset.transactions.count; i++) {
+        Transaction * transaction = self.asset.transactions[i];
+        total = [total decimalNumberByAdding:transaction.amount];
+    }
+    self.valueLabel.text = total.stringValue;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -69,6 +86,9 @@
                                                               [[AssetManager sharedManager] addTransactionWithName:name amount:amount toAsset:self.asset];
                                                               
                                                               [self.tableView reloadData];
+                                                              
+                                                              [self updateValueLabel];
+                                                              
                                                           }]; // 2
     
     UIAlertAction *secondAction = [UIAlertAction actionWithTitle:@"Cancel"
@@ -114,6 +134,8 @@
         [[AssetManager sharedManager] removeTransaction:transaction fromAsset:self.asset];
         
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        
+        [self updateValueLabel];
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
